@@ -1,0 +1,447 @@
+<html>
+	<head>
+		<title>Ibrahim nabil - HTML</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		<link href="css/main.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="topbar">
+			<div class="wrapper">
+				<span class="title">Ibrahim Nabil</span>
+				<button class="nav_button" onclick="nav();"></button>
+				<nav id="nav">
+					<button class="close_nav" onclick="nav();">Close</button>
+					<a href="index.html">HTML</a>
+					<a href="css.html">CSS</a>
+					<a href="js.html">JavaScript</a>
+					<a href="php.html">PHP</a>
+                    <a href="contact.html">Contact Us</a>
+					<div class="dropDown"> 
+                            <button class="dropBtn"><a id="AboutItem">About Us</a></button> 
+                            <div class="dropDownContent">
+                              <a class="dropDownOption" href="/Working/KhaledCv.html" target="_blank">Khaled Aloufi</a>
+                                <a class="dropDownOption" href="/Working/Untitled-2.html" target="_blank">Ibrahim Nabil</a>
+                                <a class="dropDownOption" href="/Working/assignment%201.html" target="_blank">Bassil Aldroubi</a>
+                            </div>
+                        </div>
+				</nav>
+			</div>
+		</div>
+
+		<div class="intro">
+			<section class="banner"></section>
+
+		</div>
+		<div class="wrapper main">
+			<table>
+	  <caption>Find some HTML Syntax and their usage.</caption>
+	  <thead>
+	    <tr>
+	      <th scope="col">HTML Tag</th>
+	      <th scope="col">Description</th>
+	      <th scope="col">Example</th>
+	      <th scope="col">Link</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <td> &lt;!DOCTYPE html&gt; </td>
+	      <td>This document is HTML5 document, It must only appear once, at the top of the page</td>
+	      <td></td>
+	      <td></td>
+	    </tr>
+			<tr>
+			 <td> &lt;head&gt; </td>
+			 <td class="column1">This root element or beginning of HTML code that is divided into two parts (1) head and (2) body. The visible or display part is body</td>
+			 <td></td>
+			 <td></td>
+		 </tr>
+		 <tr>
+		 <td> &lt;meta&gt; </td>
+		 <td>metainformation about the page. Meta means data about data, that means it will include all the information about and required by the page</td>
+		 <td></td>
+		 <td></td>
+	 </tr>
+ <tr>
+ <td> &lt;title&gt; </td>
+ <td>there are two usage of title tag (1) in head it is conisder as title of the page shown in chrome or IE tab, (2) in the body it is shown as tool tip text then you define it as an attribute to tag</td>
+ <td></td>
+ <td></td>
+</tr>
+<tr>
+<td> &lt;body&gt; </td>
+<td>Visibile container of the HTML page</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;h1&gt; &lt;h2&gt; &lt;h3&gt; &lt;h4&gt; &lt;h5&gt; &lt;h6&gt;</td>
+<td>These are heading for the page where h1 is maxium and h6 is smallest. There are 6 headings, after closing of tag new line starts</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td> &lt;p&gt;</td>
+<td><p> tag specifies the paragraph or text of any length. once <p> tag ends new line starts</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td> &lt;br&gt;</td>
+<td>the tag used for \n or new line</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;br/&gt;</td>
+<td>is same as &lt;br&gt; </td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;b&gt;</td>
+<td><b>bold the text it is used inside some tags, after the tag ends there is no new line</b></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;i&gt;</td>
+<td>italic the text it is used inside some tags, after the tag ends there is no new line</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;u&gt;</td>
+<td>underline the text it is used inside some tags, after the tag ends there is no new line</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;em&gt;</td>
+<td>for making an emphasis on text by italicizing it</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;strong&gt;</td>
+<td>same as bold but it tells the emphasis on text to the browser. I consider it to be semantic based programming</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td> &lt;strong&gt;</td>
+<td>same as bold but it tells the emphasis on text to the browser. I consider it to be semantic based programming</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td> &lt;strong&gt;</td>
+<td>same as bold but it tells the emphasis on text to the browser. I consider it to be semantic based programming</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;a&gt;</td>
+<td>&lt;a&gt; is called as anchor tag used for hyperlink, it has attribute called as href that points to different web or inside page address, target attribute can have one of the following values: <br>
+<br>
+_self - Default. Opens the document in the same window/tab as it was clicked<br>
+_blank - Opens the document in a new window or tab<br>
+_parent - Opens the document in the parent frame<br>
+_top - Opens the document in the full body of the window           mailto : inside the href attribute to create a link that opens the user's email program (to let them send a new email)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;img&gt;</td>
+<td>&lt;img&gt; is for image tag that is used to display an image, it has elements such as src for actual location of image, alt for alternative text if image is not displayed, width and hieght are properites of image show, Images tag doesnt go to new line</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;marquee&gt;</td>
+<td>for having a moving text</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> HTML</td>
+<td>Hyper Text Mark up Lanugage, used for creating webpages and is decoded by any browser such as chrome, mozilla or IE, duckduckgo, Tor, Opera, Safari, Made in 1991 by Tim Berners Lee, HTML 5.2 </td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> Is HTML case senstive</td>
+<td>No</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> Do HTML OWN his own MUKH</td>
+<td>No</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> Know the difference between HTML elements, empty elements</td>
+<td>Empty elements do not have an end tag! such as <br> <hr></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> What are attributes</td>
+<td>Attributes are properties of HTML tags, they define what to do with the tag. it come with name:value pair</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>lang</td>
+<td>language attribute tell the lanugae of webpage, you are can use ar, en, en-US and so on, lang="en"</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;pre&gt;</td>
+<td>pre-formatted tag that uses the style made in coding page, it considers, enter, tab, space everything</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;style&gt;</td>
+<td>is used for design , color, and display. Style has multiple name value pair such as color : txt color  , background-color: for background, font-family for font style, font-size for font display size</td>
+<td><pre>
+	&lt;!DOCTYPE html&gt;
+	&lt;html&gt;
+	&lt;head&gt;
+	    &lt;title>Hello&lt;/title&gt;
+	    &lt;/head&gt;
+	&lt;body&gt;
+	    &lt;h1 style="color:chocolate"&gt;Hello&lt;/h1&gt;
+	    &lt;h1 style="background-color:antiquewhite"&gt;Hello&lt;/h1&gt;
+	    &lt;p>i am coming to school&lt;/p&gt;
+	    &lt;p style="font-family: cursive"&gt; I am not coming to school &lt;/p&gt;
+	    &lt;p style="font-size: 34px"&gt;I am font size&lt;/p&gt;
+	    &lt;p style="font-size: 150%"&gt;I am font size&lt;/p&gt;
+	    &lt;/body&gt;
+	&lt;/html&gt;
+</pre></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;bdo dir="rtl"&gt;</td>
+<td>pre-formatted tag that uses the style made inbidirectional tag for writitng the text from right to left or ltr: left to right</td>
+<td><pre>
+	&lt;!DOCTYPE html&gt;
+	&lt;html&gt;
+&lt;head&gt;
+	    &lt;title>Hello&lt;/title&gt;
+	    &lt;/head&gt;
+	&lt;body&gt;
+	    &lt;h1 style="color:chocolate"&gt;W&lt;small&gt;EB&lt;/small&gt; D&lt;small&gt;EVLOPMENT&lt;/small&gt;&lt;/h1&gt;
+	    &lt;h1 style="background-color:antiquewhite"&gt;Hello&lt;/h1&gt;
+	    &lt;p&gt;i am coming to school&lt;/p&gt;
+	    &lt;p style="font-family: cursive"&gt; I am not coming to school  &lt;/p&gt;
+	    &lt;p style="font-size: 34px"&gt;I am font size&lt;/p&gt;
+	    &lt;p style="font-size: 150%"&gt;I am font size&lt;/p&gt;
+	    &lt;p style="text-align: right">مرحبا بكم في تطوير الويب&lt;/p&gt;
+	    &lt;p&gt; Convert [10001]&lt;sub&gt;2&lt;/sub> to [?]&lt;sub>10&lt;/sub&gt;&lt;/p&gt;
+	    &lt;p&gt; find the &lt;mark>answer&lt;/mark&gt; for 2&lt;sup&gt;9&lt;/sup&gt; = 512&lt;/p&gt;
+	    &lt;pre style="font-size: 21px"&gt;
+	    خصم بمناسبة العيد الوطني
+	درون &lt;del>500&lt;/del&gt; إلى 250
+	    &lt;/pre&gt;
+
+	    &lt;/body&gt;
+	&lt;/html&gt;
+</pre></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;address&gt;</td>
+<td>for writing the address </td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;small&gt;</td>
+<td>for just making the text smaller 25% compared to normal text</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;mark&gt;</td>
+<td>for highlight the text in yellow</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;del&gt;</td>
+<td>for strikethrought the text</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;blockquote&gt;</td>
+<td>for writing IKTIBAS or quotation, the text is slightly indented</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;q&gt;</td>
+<td>for putting double quotes ""</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;abbr title&gt;</td>
+<td>for putting the acronym</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;sup&gt;</td>
+<td>for subscript</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;sup&gt;</td>
+<td>for superScript</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;hr&gt;</td>
+<td>for a horizontal Line</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;!-- anything--&gt;</td>
+<td>This was for comments { Single line or multiline}</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> Error in HTML</td>
+<td>Error's in HTML are not informed and the page will execute</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> border-collapse: collapse</td>
+<td>Creates a table that has rows (&lt;tr&gt;) and data (&lt;td&gt;)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> colspan = n</td>
+<td>merges n number of columns</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;map&gt;</td>
+<td>maps areas in the image specified by the user to be clickable</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;area&gt;</td>
+<td>to determine the shape and coodinates of each area inside the map</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;usemap&gt;</td>
+<td>Attribute that specifies that an id is to be used with map tag</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> &lt;ul&gt;</td>
+<td>html tag for creating an unordred list</td>
+<td></td>
+<td></td>
+</tr>
+	<tr>
+	<td> &lt;ol&gt;</td>
+	<td>html tag for creating an ordred list</td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td> &lt;li&gt;</td>
+	<td>Each list item starts with the <li> tag</td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td> collapse</td>
+	<td>To let the borders collapse into one border, add the CSS border-collapse property</td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td style="color: red;"> a:link</td>
+	<td>it's a style that will edit the unvisted link</td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+		<tr>
+		<td style="color: red;"> a:visited</td>
+		<td>it's a style that will edit the link after the user visit it</td>
+		<td></td>
+		<td></td>
+		</tr>
+
+				<tr>
+				<td style="color: red;"> a:hover</td>
+				<td>html tag for creating an ordred list</td>
+				<td></td>
+				<td></td>
+				</tr>
+				<tr>
+					<tr>
+					<td style="color: red;">a:active</td>
+					<td>it's a style that will edit the link during thte user click the link</td>
+					<td></td>
+					<td></td>
+					</tr>
+					<tr>
+						<tr>
+						<td style="color: red;"> &lt;video&gt;</td>
+						<td>tag is used to show a video on a web page.</td>
+						<td></td>
+						<td></td>
+						</tr>
+						<tr>
+							<tr>
+							<td style="color: red;"> &lt;audio&gt;</td>
+							<td>is used to play an audio file on a web page.</td>
+							<td></td>
+							<td></td>
+							</tr>
+							<tr>
+								<tr>
+								<td> &lt;iframe&gt;</td>
+								<td>tag is used to show a vidAn inline frame is used to embed another document within the current HTML document</td>
+								<td></td>
+								<td></td>
+								</tr>
+								<tr>
+
+
+	  </tbody>
+	</table>
+
+		</div>
+	<script type="text/javascript" src="./js/main.js"></script>
+	</body>
+</html>
